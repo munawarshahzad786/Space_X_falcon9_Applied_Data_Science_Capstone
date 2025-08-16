@@ -1,0 +1,34 @@
+# ================================
+# Falcon 9 Project - Latest Requirements
+# ================================
+
+# Core (Data handling and environment)
+pandas               # 📊 Data manipulation and analysis
+numpy                # 🔢 Numerical operations, arrays, and math functions
+python-dotenv        # 🌿 Load environment variables from .env files
+
+# SQL (Exploratory Analysis with SQL queries)
+pandasql             # 🗄 Run SQL queries directly on pandas DataFrames
+
+# Visualization (Plots and charts)
+matplotlib           # 📉 Basic plotting and charts
+seaborn              # 📈 Advanced statistical visualizations
+
+# Dashboard (Interactive dashboards)
+dash                 # 🚀 Dash framework for building dashboards
+dash-bootstrap-components  # 🎨 Bootstrap components for styling Dash apps
+plotly               # 📊 Interactive and dynamic plots for dashboards
+
+# Web Scraping (Data collection from web)
+beautifulsoup4       # 🖥 HTML parsing and scraping
+requests             # 🌐 HTTP requests for APIs and web pages
+lxml                 # ⚡ Fast XML/HTML parser for BeautifulSoup
+
+# Optional / Development (Jupyter environment)
+jupyter              # 📓 Run notebooks and visualize results
+ipykernel            # 🔑 Kernel for running Python code in Jupyter
+
+# Mapping and Geospatial (Folium map)
+folium               # 🗺️ Interactive maps and visualizations
+geopy                # 🌍 Geocoding and distance calculations
+

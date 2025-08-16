@@ -1,0 +1,12 @@
+,Flight No.,Date,Booster Version Category,Launch Site,Payload[j],Payload mass,Orbit,Customer,class,Booster landing,Payload Mass (kg),Outcome,Version,Year
+count,272,0.0,272,272,272,272,272,272,272,272,272.0,0,0,0
+unique,134,,242,108,238,141,113,137,106,112,,0,0,0
+top,FH 11,,Launch of 23 Starlink v2 mini satellites to a 530 km (330 mi) orbit at an inclination of 43° to expand internet constellation.,"Cape Canaveral, SLC‑40",Launch of 23 Starlink v2 mini satellites to a 530 km (330 mi) orbit at an inclination of 43° to expand internet constellation.,"~17,100 kg (37,700 lb)",LEO,SpaceX,Success,Success (OCISLY),,,,
+freq,4,,10,62,10,39,99,89,137,39,,,,
+mean,,,,,,,,,,,149192106804.82104,,,
+std,,,,,,,,,,,526123250102.6125,,,
+min,,,,,,,,,,,0.0,,,
+25%,,,,,,,,,,,0.0,,,
+50%,,,,,,,,,,,1300029000.0,,,
+75%,,,,,,,,,,,1710037700.0,,,
+max,,,,,,,,,,,2121355934743.0,,,
