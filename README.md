@@ -18,7 +18,7 @@ falcon9_project/
 ├── README.md # 📖 Project overview, usage, and installation instructions
 ├── requirements.txt # 🐍 Python dependencies with versions
 ├── LICENSE # ⚖️ MIT License
-│
+
 ├── data/ # 📊 Datasets
 │ ├── raw/ # 📂 Original datasets (API / Web scraping)
 │ │ ├── falcon9_launches.csv
@@ -27,7 +27,7 @@ falcon9_project/
 │ ├── processed/ # 📂 Cleaned datasets for EDA/ML
 │ ├── falcon9_web_scraped_cleaned.csv
 │ ├── falcon9_cleaned_for_eda.csv
-│
+
 ├── notebooks/ # 📓 Jupyter Notebooks (step-by-step workflow)
 │ ├── 1_data_collection_api.ipynb # 🚀 Collect launch data using SpaceX API
 │ ├── 2_web_scraping.ipynb # 🌐 Scrape additional launch details
@@ -36,7 +36,7 @@ falcon9_project/
 │ ├── 5_dash_dashboard.ipynb # 📈 Interactive dashboard & Folium map
 │ ├── 6_predictive_analysis_classification.ipynb # 🤖 ML model (success/failure classification)
 │ ├── 7_presentation.ipynb # 🎨 Final presentation + visuals
-│
+
 ├── scripts/ # ⚙️ Automation-ready Python scripts
 │ ├── 1_data_collection_api.py
 │ ├── 2_web_scraping.py
@@ -45,16 +45,16 @@ falcon9_project/
 │ ├── 5_folium_map.py
 │ ├── 6_presentation.py
 │ ├── 7_run_all.py
-│
+
 ├── outputs/ # 📂 Results & generated outputs
 │ ├── figures/ # 📊 Graphs, charts, screenshots
 │ ├── reports/ # 📑 Summary CSVs, reports, insights
-│
+
 ├── docs/ # 📚 Documentation
 │ ├── api_reference.md
 │ ├── project_steps.md
 │ ├── changelog.md
-│
+
 └── working_launch_map.html # 🌍 Folium interactive launch map
 
 Installation Instructions
