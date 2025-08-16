@@ -28,7 +28,7 @@ falcon9_project/
 │       └── falcon_web_scraped_cleaned.csv
 │       └── falcon9_cleaned_for_eda.csv
 │
-├── notebooks/                      # 📓 Jupyter Notebooks (step-by-step workflow)
+├── notebooks/                             # 📓 Jupyter Notebooks (step-by-step workflow)
 │   ├── 1_data_collection_api.ipynb        # 📡 Collect launch data using SpaceX API
 │   ├── 2_web_scraping.ipynb               # 🌐 Scrape additional launch details
 │   ├── 3_data_wrangling.ipynb             # 🧽 Clean + preprocess data
