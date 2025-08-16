@@ -15,46 +15,47 @@ Automated presentation outputs
 
 Project Structure
 falcon9_project/
+├── README.md # 📖 Project overview, usage, and installation instructions
+├── requirements.txt # 🐍 Python dependencies with versions
+├── LICENSE # ⚖️ MIT License
 │
-├── README.md        # 📄 Project overview, usage, and installation instructions
-├── requirements.txt # 📦 Python dependencies with versions
-├── LICENSE          # ⚖️ MIT License
+├── data/ # 📊 Datasets
+│ ├── raw/ # 📂 Original datasets (API / Web scraping)
+│ │ ├── falcon9_launches.csv
+│ │ ├── falcon9_web_scraped.csv
+│ │
+│ ├── processed/ # 📂 Cleaned datasets for EDA/ML
+│ ├── falcon9_web_scraped_cleaned.csv
+│ ├── falcon9_cleaned_for_eda.csv
 │
-├── data/                                  # 📊 Datasets
-│   ├── raw/                               # 📥 Original datasets (API / Web scraping)
-│   │   └── falcon9_launches.csv
-│   │   └── falcon9_web_scraped.csv
-│   └── processed/                           # 🧹 Cleaned datasets for EDA/ML
-│       └── falcon_web_scraped_cleaned.csv
-│       └── falcon9_cleaned_for_eda.csv
+├── notebooks/ # 📓 Jupyter Notebooks (step-by-step workflow)
+│ ├── 1_data_collection_api.ipynb # 🚀 Collect launch data using SpaceX API
+│ ├── 2_web_scraping.ipynb # 🌐 Scrape additional launch details
+│ ├── 3_data_wrangling.ipynb # 🧹 Clean + preprocess data
+│ ├── 4_exploratory_analysis_with_SQL.ipynb # 📊 EDA & SQL-based analysis
+│ ├── 5_dash_dashboard.ipynb # 📈 Interactive dashboard & Folium map
+│ ├── 6_predictive_analysis_classification.ipynb # 🤖 ML model (success/failure classification)
+│ ├── 7_presentation.ipynb # 🎨 Final presentation + visuals
 │
-├── notebooks/                             # 📓 Jupyter Notebooks (step-by-step workflow)
-│   ├── 1_data_collection_api.ipynb        # 📡 Collect launch data using SpaceX API
-│   ├── 2_web_scraping.ipynb               # 🌐 Scrape additional launch details
-│   ├── 3_data_wrangling.ipynb             # 🧽 Clean + preprocess data
-│   ├── 4_exploratory_analysis_with_SQL.ipynb # 📊 EDA & SQL-based analysis
-│   ├── 5_dash_dashboard.ipynb              # 📈 Interactive dashboard & Folium map
-│   ├── 6_predictive_analysis_classification.ipynb # 🤖 ML model (classification of launch success/failure)
-│   └── 7_presentation.ipynb                # 🎤 Final presentation + visuals
+├── scripts/ # ⚙️ Automation-ready Python scripts
+│ ├── 1_data_collection_api.py
+│ ├── 2_web_scraping.py
+│ ├── 3_data_wrangling.py
+│ ├── 4_dashboard_app.py
+│ ├── 5_folium_map.py
+│ ├── 6_presentation.py
+│ ├── 7_run_all.py
 │
-├── scripts/                                # 🛠 Automation-ready Python scripts
-│   ├── 1_data_collection_api.py
-│   ├── 2_web_scraping.py
-│   ├── 3_data_wrangling.py
-│   ├── 4_dashboard_app.py              # Plotly Dash App
-│   ├── 5_folium_map.py                 # Folium map (launch sites + proximities)
-│   ├── 6_presentation.py
-│   └── 7_run_all.py                    # 🔁 Automate running the full pipeline
+├── outputs/ # 📂 Results & generated outputs
+│ ├── figures/ # 📊 Graphs, charts, screenshots
+│ ├── reports/ # 📑 Summary CSVs, reports, insights
 │
-├── outputs/                            # 📤 Results & generated outputs
-│   ├── figures/                        # 📷 Graphs, charts, screenshots
-│   └── reports/                        # 📑 Summary CSVs, reports, insights
+├── docs/ # 📚 Documentation
+│ ├── api_reference.md
+│ ├── project_steps.md
+│ ├── changelog.md
 │
-└── docs/                               # 📚 Documentation
-│    ├── api_reference.md
-│    ├── project_steps.md
-│    └── changelog.md
-├──  working_launch_map.html
+└── working_launch_map.html # 🌍 Folium interactive launch map
 
 Installation Instructions
 Python Version: Python 3.10.18 is required for compatibility with all packages.
